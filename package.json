@@ -1,0 +1,37 @@
+{
+  "name": "gemini-ai-clone",
+  "version": "1.0.0",
+  "description": "A clean, user-friendly Gemini AI clone website with API integration",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000 -c-1",
+    "dev": "http-server -p 3000 -c-1 -o",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "gemini",
+    "ai",
+    "chatbot",
+    "google",
+    "api",
+    "clone",
+    "frontend",
+    "javascript"
+  ],
+  "author": "Nagesh Sonawane",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/gemini-ai-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/gemini-ai-clone/issues"
+  },
+  "homepage": "https://github.com/your-username/gemini-ai-clone#readme"
+}
